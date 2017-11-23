@@ -1,0 +1,18 @@
+ul {
+  list-style: none
+}
+
+.message-row-container {
+  display: flex;
+  border: 1px solid gray;
+  height: 55px;
+}
+
+.avatar-container {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.message-text-container {
+  margin-bottom: 3px;
+}
