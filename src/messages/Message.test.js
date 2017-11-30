@@ -1,19 +1,6 @@
 import React from 'react'
 import {shallow} from 'enzyme'
 import {Message} from './Message'
-// export const Message = ({message, email, hovered, timestamp}) => (
-//   <div>
-//     <MessageText message={message}/>
-//     <Timestamp timestamp={timestamp} />
-//     { hovered &&<Email email={email} /> }
-//   </div>
-// )
-
-// const MessageWithHover = withShowOnHover(Message)
-
-// MessageWithHover.displayName = 'MessageWithHover'
-
-// export default MessageWithHover
 
 describe('Message', () => {
   it('renders MessageText component with message prop', () => {
